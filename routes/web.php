@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+Route::get('appointments/confirm', 'AppointmentController@confirm');
+Route::resource('appointments', 'AppointmentController');
+
+
+Route::get('oauth', 'AppointmentController@oauth')->name('oauthCallback');

@@ -1,0 +1,46 @@
+body{
+    background-color: #1976D2;
+}
+.heading{
+    text-align: center;
+
+
+}
+.heading>h1{
+    font-family: 'Cabin', sans-serif !important;
+    color: #ffffff;
+}
+.confirmation-container{
+    background-color: white;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #555555;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding:45px;
+    z-index: 1;
+    margin-top:50px;
+
+}
+.date{
+    margin: 25px 0px;
+    color: #FFFFFF;
+    background-color: #212121;
+    padding:15px;
+    font-size:20px;
+}
+.customer-note{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.customer-note>span{
+    color: #1976D2;
+    font-weight: bold;
+}
+#btn-home{
+    display:block;
+    width:20%;
+    background-color: #FF5722;
+    border-color: #FF5722;
+    margin: 0px auto;
+}

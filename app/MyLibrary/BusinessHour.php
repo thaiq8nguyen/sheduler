@@ -9,7 +9,7 @@
 namespace app\MyLibrary;
 
 
-class BusinessHours
+class BusinessHour
 {
     private $path;
     private $bizHours;

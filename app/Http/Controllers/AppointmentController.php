@@ -21,7 +21,7 @@ class AppointmentController extends Controller
      */
     public function index()
     {
-        putenv('GOOGLE_APPLICATION_CREDENTIALS=My Project-6215caadf694.json');
+        putenv('GOOGLE_APPLICATION_CREDENTIALS=My-Project-6215caadf694.json');
         $client = new Google_Client();
         $client->useApplicationDefaultCredentials();
         $client->setSubject('thai@thaiqnguyen.com');
@@ -61,7 +61,7 @@ class AppointmentController extends Controller
     public function store(Request $request)
     {
         /*Initialize a Google Calendar Service */
-        putenv('GOOGLE_APPLICATION_CREDENTIALS=My Project-6215caadf694.json');
+        putenv('GOOGLE_APPLICATION_CREDENTIALS=My-Project-6215caadf694.json');
         $client = new Google_Client();
         $client->useApplicationDefaultCredentials();
         $client->setSubject('thai@thaiqnguyen.com');

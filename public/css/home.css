@@ -1,0 +1,36 @@
+body{
+    background-color: #1976D2;
+}
+
+.top-content{
+    text-align: center;
+
+}
+.top-content>h1{
+    font-family: 'Cabin', sans-serif !important;
+    color: #ffffff;
+}
+.top-content>p{
+    margin-top: 20px;
+    font-size:1.1em;
+    color: #ffffff;
+}
+.login-container{
+    background-color: white;
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid #555555;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding:45px;
+    z-index: 1;
+    margin-top:50px;
+
+}
+
+#make-appointment-btn, #contact-btn{
+    display:block;
+    margin-bottom:10px;
+    background-color: #FF5722;
+    border-color: #FF5722;
+}

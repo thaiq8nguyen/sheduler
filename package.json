@@ -17,5 +17,35 @@
     "laravel-mix": "0.*",
     "lodash": "^4.17.4",
     "vue": "^2.1.10"
+  },
+  "name": "scheduler",
+  "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaiq8nguyen/sheduler.git"
+  },
+  "keywords": [
+    "scheduler",
+    "appointments",
+    "google",
+    "calendar"
+  ],
+  "author": "thai nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaiq8nguyen/sheduler/issues"
+  },
+  "homepage": "https://github.com/thaiq8nguyen/sheduler#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-datepicker": "^1.6.4",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1"
   }
 }

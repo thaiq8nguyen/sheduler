@@ -52,7 +52,7 @@ class ApiController extends Controller
 
         }
 
-        putenv('GOOGLE_APPLICATION_CREDENTIALS=My Project-6215caadf694.json');
+        putenv('GOOGLE_APPLICATION_CREDENTIALS=My-Project-6215caadf694.json');
         $client = new Google_Client();
         $client->useApplicationDefaultCredentials();
         $client->setSubject('thai@thaiqnguyen.com');
