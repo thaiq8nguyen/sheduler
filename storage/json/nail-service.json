@@ -1,0 +1,20 @@
+{
+  "services": [
+    {
+      "name":"regular manicure"
+    },
+    {
+      "name":"gel manicure"
+    },
+    {
+      "name":"regular pedicure"
+    },
+    {
+      "name":"gel manicure"
+    },
+    {
+      "name":"gel manicure & regular pedicure"
+    }
+  ]
+
+}
